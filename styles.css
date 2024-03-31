@@ -1,0 +1,117 @@
+body {
+  background-image: url("image.jpeg"); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover; /* Adjust the background size to cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  -webkit-text-stroke: 1px rgb(207, 159, 210);
+  color: rgba(62, 0, 59, 0.603);
+  font-weight: bold;
+}
+h4 {
+  -webkit-text-stroke: 1px rgba(56, 3, 59, 0.808);
+  animation: zoom-in;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h5 {
+  color: darkblue;
+}
+h6 {
+  color: rgb(102, 61, 90);
+}
+header {
+  background-color: #20011b;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+section {
+  padding: 20px;
+  position: relative;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #20011bd6;
+  color: #fff;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+.contact-icons {
+  font-size: 24px;
+}
+
+.contact-icons a {
+  color: #007bff; /* Blue color for links */
+  margin: 0 10px;
+}
+
+.contact-icons p {
+  color: #333; /* A dark color for the address text */
+  margin: 10px 0;
+}
+
+.section {
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.section.inactive {
+  transform: scale(0.8);
+  opacity: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
